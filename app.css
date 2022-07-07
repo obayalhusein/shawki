@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(34,193,195);
+    background-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-image: url('/images/gc.png');
+    background-size: 10%;
+    text-align: center;
+    animation: shakabo 30s infinite linear;
+}
+
+@keyframes shakabo {
+    100% {
+        background-position: 110%;
+    }
+}
+
+img {
+    margin-top: 2rem;
+    max-width: 100%;
+}
